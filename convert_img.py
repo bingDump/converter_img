@@ -7,8 +7,6 @@ path = glob.glob('New_folder/*')
 extention_from = 'webp'
 extention_to  = 'jpg'
 
-file_convert = []
-
 def convert_images(from_ext, to_ext):
     count = 0
     for item in path:
